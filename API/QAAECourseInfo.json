@@ -1,0 +1,102 @@
+{
+
+   "StudentsInfo" : [
+    {
+
+        "Name": "Amna",
+        "Age" : 30,
+        "ZipCode" : 11365,
+        "Education" : [
+             {
+                 "Type" : "HighSchool",
+                 "Name" : null,
+                 "YearPassed" : 2008
+             },
+             {
+                "Type" : "College",
+                "Name" : "",
+                "YearPassed" : 2012
+            }
+        ]
+    
+    },
+    {
+
+        "Name": "Danish",
+        "Age" : 26,
+        "ZipCode" : 11801
+    
+    },
+    {
+
+        "Name": "Faizul",
+        "Age" : 28,
+        "ZipCode" : 77375
+    
+    },
+    {
+
+        "Name": "Hamza",
+        "Age" : 21,
+        "ZipCode" : 11102
+    
+    },
+    {
+
+        "Name": "Jadid",
+        "Age" : 28,
+        "ZipCode" : 77375
+    
+    },
+    {
+
+        "Name": "Kanta",
+        "Age" : 31,
+        "ZipCode" : 17036
+    
+    },
+    {
+
+        "Name": "Khairul",
+        "Age" : 25,
+        "ZipCode" : 11417
+    
+    },
+    {
+
+        "Name": "Nouman",
+        "Age" : 35,
+        "ZipCode" : 11365
+    
+    },
+    {
+
+        "Name": "Nouman",
+        "Age" : 35,
+        "ZipCode" : 11365
+    
+    },
+    {
+
+        "Name": "Rezia",
+        "Age" : 39,
+        "ZipCode" : 77375
+    
+    }
+
+   ],
+
+   "mentors": [
+       {
+           "Name" : "Jahidul",
+           "Age" : 45,
+           "ZipCode" : 11721
+       },
+       {
+        "Name" : "Sana",
+        "Age" : 25,
+        "ZipCode" : 23456
+    }
+   ]
+   
+}
