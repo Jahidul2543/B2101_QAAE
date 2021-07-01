@@ -1,0 +1,57 @@
+Test Plan 01
+
+1. Verb: POST
+   HostName: https://5x9m5ed0tj.execute-api.us-east-1.amazonaws.com
+   Endpoint: /test/submit
+   Header: 
+        Authorization: Bearer AccessToken
+        Content-Type: application/json
+   Body: 
+        {
+        "name": "John",
+        "age": 64
+        }
+2. Execute the call
+3. Expected response code 200
+4. Expected message "You are an adult"
+
+Test Plan 02
+
+1. Verb: POST
+   HostName: https://5x9m5ed0tj.execute-api.us-east-1.amazonaws.com
+   Endpoint: /test/submit
+   Header: 
+        Authorization: Bearer AccessToken
+        Content-Type: application/json
+   Body: 
+        {
+        "name": "John",
+        "age": 9
+        }
+2. Execute the call
+3. Expected response code 200
+4. Expected message 
+        {
+             "message": "Invalid request body"
+        }
+
+Test Plan 03
+
+1. Verb: POST
+   HostName: https://5x9m5ed0tj.execute-api.us-east-1.amazonaws.com
+   Endpoint: /test/submit
+   Header: 
+        Authorization: Bearer AccessToken
+        Content-Type: application/json
+   Body: 
+        {
+        "name": 10,
+        "age": 9
+        }
+2. Execute the call
+3. Expected response code 200
+4. Expected message 
+        {
+             "message": "Invalid request body"
+        }
+   
